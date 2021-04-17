@@ -12,7 +12,7 @@ import { NopageComponent } from './nopage/nopage.component';
     
 const routes: Routes = [
 
-  { path: '', redirectTo:'/dashboard', pathMatch: 'full'}
+  { path: '', redirectTo:'/dashboard', pathMatch: 'full'},
   { path: '**', component: NopageComponent }
 ];
 
